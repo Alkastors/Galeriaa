@@ -1,0 +1,55 @@
+body{
+	font-family:Garamond;
+	background-color:MistyRose;
+	color:rgb(62,39,35);
+	text-align:center;
+	
+}
+main{
+	display:flex;
+}
+#lewy{
+	
+	width:20%;
+	height:600px;
+	margin:30px;
+	box-shadow:15px 15px 10px DimGray;
+	overflow:auto;
+	/*float:left;*/
+}
+
+#lewy img{
+	width:100%;
+	
+}
+
+#prawy{
+	width:65%;
+	height:600px;
+	/*float:left;*/
+}
+
+#mini img{
+	width:140px;
+	padding:2px;
+	border-radius:5%;
+	
+}
+
+#mini img:hover{
+	border:1px dotted black;
+	
+}
+
+div img{
+	width:500px;
+	margin:30px;
+	box-shadow:15px 15px 10px DimGray;
+}
+
+table{
+	border:1px dashed black;
+	
+}
+
+/*footer{clear:both;}*/
